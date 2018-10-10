@@ -10,3 +10,5 @@ Embedding Dimension
 The LSTM is defined such that, as it sequentially looks at inputs, it expects that each individual input in a sequence is of a consistent size and so we embed the feature vector and each word so that they are embed_size.
 
 Note: Create a folder named 'Models' before executing the code and training the network. Both Encoder and Decoder will generate a PKL file each corresponding to the number of epochs chosen for training. Epochs=3 gives good results. However, significant improvements will be seen if trained more. Kindly note training this network will take longer hours- EVEN ON GPU!!!
+
+Package Used: Pytorch v0.4, OpenCV2
